@@ -1,5 +1,9 @@
 package application;
 
-public class App {
+import game.Game;
 
+public class App {
+	public static void main(String[] args) {
+		new Game().run();
+	}
 }
